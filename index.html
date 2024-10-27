@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Enrollment Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Enrollment Form</legend>
+            <label>First Name</label><br>
+            <input type="text" id="firstName" name="firstName" required><br><br>
+            <label>Last Name</label><br>
+            <input type="text" id="lastName" name="lastName" required><br><br>
+            <label>Gender</label><br>
+            <input type="radio" id="male" name="gender" value="Male" required>Male<br>
+            <input type="radio" name="gender" id="female" value="Female" required>Female<br><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="email">Password: </label>
+            <input type="password" name="password"><br><br>
+            <label for="birthday">Birthday: </label>
+            <input type="date" name="birthday" id="birthday"><br><br>
+            <label for="address">Address:</label><br>
+            <textarea rows="5" cols="50" id="address" name="address" required>Enter Address Here...</textarea><br><br>
+            <label for="image">Image:</label><br>
+            <input type="file" name="fileupload" accept="image/*"><br><br><br><br>
+            <center>
+                <input type="submit" name="submit" value="Submit">
+                <input type="reset" name="Reset" id="reset">
+            </center>
+        </fieldset>
+    </form>
+</body>
+</html>
